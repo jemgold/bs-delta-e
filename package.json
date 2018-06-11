@@ -1,5 +1,6 @@
 {
   "name": "@jongold/bs-delta-e",
+  "description": "Reason bindings for CIE color difference formulas",
   "version": "0.1.0",
   "scripts": {
     "build": "bsb -make-world",
@@ -13,6 +14,12 @@
   ],
   "author": "Jon Gold <hello@designedbygold.com>",
   "main": "src/DeltaE.re",
+  "homepage": "https://github.com/jongold/bs-delta-e",
+  "bugs": "https://github.com/jongold/bs-delta-e/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jongold/bs-delta-e.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "bs-platform": "^3.1.5"
