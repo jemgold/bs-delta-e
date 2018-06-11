@@ -1,0 +1,23 @@
+{
+  "name": "@jongold/bs-delta-e",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript",
+    "ReasonML",
+    "Reason"
+  ],
+  "author": "Jon Gold <hello@designedbygold.com>",
+  "main": "src/DeltaE.re",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^3.1.5"
+  },
+  "dependencies": {
+    "delta-e": "^0.0.7"
+  }
+}
